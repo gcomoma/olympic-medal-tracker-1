@@ -6,6 +6,7 @@
 - Responsive design
 - Cloud storage for medal data
 - Real-time data synchronization across devices
+- User authentication with sign in functionality
 
 ### Designs
 - Medal table with country flags
@@ -19,6 +20,8 @@
 - [x] Build medal table component with sorting
 - [x] Add country data with flags and medal counts
 - [x] Implement responsive layout
+- [x] Add sign in button to header
+- [ ] Setup Buildify Cloud authentication
 - [ ] Create database table for medal data
 - [ ] Setup Buildify Cloud client
 - [ ] Implement data fetching from cloud
