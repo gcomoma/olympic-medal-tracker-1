@@ -1,6 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { LogIn } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export function Header() {
   return (
@@ -23,10 +24,12 @@ export function Header() {
           </div>
         </div>
         
-        <Button variant="default" size="default" className="gap-2">
-          <LogIn className="w-4 h-4" />
-          <span className="hidden sm:inline">Sign In</span>
-        </Button>
+        <Link to="/sign-in">
+          <Button variant="default" size="default" className="gap-2">
+            <LogIn className="w-4 h-4" />
+            <span className="hidden sm:inline">Sign In</span>
+          </Button>
+        </Link>
       </div>
     </header>
   );

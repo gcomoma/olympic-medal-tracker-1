@@ -21,6 +21,7 @@
 - [x] Add country data with flags and medal counts
 - [x] Implement responsive layout
 - [x] Add sign in button to header
+- [x] Create sign in page with authentication form
 - [ ] Setup Buildify Cloud authentication
 - [ ] Create database table for medal data
 - [ ] Setup Buildify Cloud client
