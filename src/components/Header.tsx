@@ -15,9 +15,7 @@ export function Header() {
             <div className="w-2 h-8 bg-gradient-to-b from-olympic-green to-olympic-green/80 rounded-full" />
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-gold via-silver to-bronze bg-clip-text text-transparent">
-              Olympic Games 2024
-            </h1>
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-gold via-silver to-bronze bg-clip-text text-transparent">Olympic Games 2026</h1>
             <p className="text-xs text-muted-foreground hidden md:block">
               Paris 2024 Medal Tracker
             </p>
